@@ -1,0 +1,136 @@
+.back {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 170px 0px 56px 0px;
+  opacity: 0.5;
+}
+
+.headphone-content h4 {
+  padding: 16px 0px 30px 0px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  text-transform: uppercase;
+}
+
+.counter {
+  width: 120px;
+  height: 48px;
+  background: rgb(241, 241, 241);
+  border: none;
+}
+
+.counter p {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* opacity: 0.25; */
+}
+
+.counter:hover {
+  background: rgb(241, 241, 241);
+}
+
+.counter p:hover {
+  color: rgb(216, 125, 74);
+}
+
+.information {
+  display: flex;
+  gap: 125px;
+}
+
+.information .leftside {
+  width: 635px;
+}
+
+.information .rightside span {
+  color: rgb(216, 125, 74);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.information h1 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+
+.information p {
+  opacity: 0.5;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.recommendation {
+  flex-direction: column;
+  display: flex;
+  gap: 64px;
+}
+
+.recommendation h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+}
+
+.recommendation .commodities {
+  display: flex;
+  gap: 30px;
+}
+
+.recommendation .commodity {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.commodity-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 318px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+
+.commodity-body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.commodity-body h2 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 1.71px;
+  text-transform: uppercase;
+}

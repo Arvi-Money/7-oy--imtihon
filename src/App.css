@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  --bs-gutter-x: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 48px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid #000;
+  border: none;
+  cursor: pointer;
+}
+
+.light-btn{
+  background-color: #D87D4A;
+  color: #fff;
+}
+
+.light-btn:hover{
+  background-color: #FBAF85;
+  color: #fff;
+}

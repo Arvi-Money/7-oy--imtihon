@@ -1,0 +1,344 @@
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 195px 0px 97px 0px;
+}
+
+.headphones-section,
+.speakers-section,
+.earphones-section {
+  margin-top: 160px;
+  gap: 160px;
+}
+
+.headphone,
+.speaker,
+.earphone {
+  display: flex;
+  gap: 125px;
+}
+
+.headphone-image,
+.speaker-image,
+.earphone-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 540px;
+  height: 560px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+
+.headphone-content,
+.speaker-content,
+.earphone-content {
+  width: 445px;
+  gap: 16px;
+  padding: 108.5px 0px;
+}
+
+.headphone-content span,
+.speaker-content span,
+.earphone-content span {
+  color: rgb(216, 125, 74);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.headphone-content h1,
+.speaker-content h1,
+.earphone-content h1 {
+  padding-bottom: 16px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+}
+
+.headphone-content p,
+.speaker-content p,
+.earphone-content p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.5;
+}
+
+.headphone-btn,
+.speaker-btn,
+.earphone-btn {
+  background-color: #d87d4a;
+  color: #fff;
+  margin-top: 24px;
+  border: none;
+}
+
+.headphone-btn:hover {
+  background-color: #fbaf85;
+  color: #fff;
+}
+
+.speaker-btn:hover {
+  background-color: #fbaf85;
+  color: #fff;
+}
+
+.earphone-btn:hover {
+  background-color: #fbaf85;
+  color: #fff;
+}
+
+.checkout {
+  width: 313px;
+  height: 48px;
+  background-color: #d87d4a;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: #fbaf85;
+}
+
+.checkout-section {
+  background: rgb(242, 242, 242);
+  padding-bottom: 141px;
+}
+
+.checkout-wrapper .form {
+  border-radius: 8px;
+  width: 730px;
+  background: rgb(255, 255, 255);
+  padding: 54px 48px 48px 48px;
+  box-sizing: border-box;
+}
+
+.checkout-wrapper .form label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.21px;
+}
+
+.checkout-wrapper .form input {
+  width: 100%;
+  height: 56px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 18.5px 0px 18.5px 24px;
+  outline: none;
+}
+
+.checkout-wrapper .form input::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  opacity: 0.4;
+}
+
+.checkout-wrapper .form input:focus {
+  border: 1px solid rgb(216, 125, 74);
+}
+
+.checkout-wrapper .form h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  padding-bottom: 41px;
+}
+
+.checkout-wrapper .form .details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 53px;
+}
+
+.checkout-wrapper .form h2 {
+  color: rgb(216, 125, 74);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.93px;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.info {
+  margin-bottom: 61px;
+}
+
+.payment label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+}
+
+.money,
+.cash {
+  width: 309px;
+  height: 56px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 18px 0px 18px 16px;
+  position: relative;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.money:hover, .cash:hover{
+  border: 1px solid #d87d4a;
+}
+
+#eMoney,
+#cashOnDelivery {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.payments label {
+  position: absolute;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+}
+
+.checkout-wrapper input[type='radio']:checked{
+  color: #d87d4a;
+}
+
+.cashOnDelivery {
+  margin-top: 30px;
+  display: flex;
+  gap: 32px;
+}
+
+.cashOnDelivery p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.5;
+}
+
+.Card a{
+  text-decoration: none;
+  color: rgb(252, 71, 71);
+}
+
+.Card img{
+  left: 183px;
+  top: -82px;
+  position: absolute;
+}
+
+.Card{
+  width: 400px;   
+  background-color: #0e0e0e;
+  margin: 187px auto 0;
+  border-radius: 20px;
+  padding: 32px;
+  position: relative;
+}
+
+.Card h1{
+  color: rgb(255, 255, 255);
+  font-family: Outfit;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  margin-bottom: 40px;   
+}
+
+.Card input{
+  width: 336px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid rgb(90, 105, 143);
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  padding: 0px 0px 18px 16px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+.Card input::placeholder{
+  color:  rgba(255, 255, 255, 1);
+  opacity: 0.5;
+}
+
+.Card .btn{
+  width: 336px;
+  height: 48px;
+  background-color: #d87d4a;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Card .btn:hover{
+  background-color: #fbaf85;
+}
+
+.Card .text{
+  color: rgb(255, 255, 255);
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.Card .error{
+  Color: #d87d4a;
+  position: absolute;
+  left: 14rem;
+}
+
+.Card #emailError{
+  top: 7rem;
+}
+
+.Card #passwordError{
+  top: 11rem;
+}
+
+.Card input:focus .error{
+  display: none;
+}   

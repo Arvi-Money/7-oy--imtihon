@@ -1,0 +1,253 @@
+.main {
+  background-color: #0e0e0e;
+  background-image: url(../../assets/Bitmap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 120px;
+}
+
+.banner_info {
+  padding: 256px 0px 158px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.banner_info span {
+  color: #aeadad;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 10px;
+}
+
+.banner_info h1 {
+  width: 396px;
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.banner_info p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  width: 349px;
+  margin-bottom: 16px;
+}
+
+.banner_btn {
+  background-color: #d87d4a;
+  color: #fff;
+}
+
+.banner_btn:hover {
+  background-color: #fbaf85;
+  color: #fff;
+}
+
+.products_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 0px 168px 0px;
+}
+
+.product {
+  position: relative;
+}
+
+.product_img {
+  position: absolute;
+  left: 2rem;
+  top: -4.5rem;
+  left: 7rem;
+}
+
+.product_body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  height: 204px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+
+.product_body h1 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 116px;
+}
+
+.product_body .shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  color: rgb(147, 146, 146);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.product .shop:hover{
+  color: #d87d4a;
+}
+
+.home-products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 200px;
+}
+
+.product-one {
+  display: flex;
+  gap: 138px;
+  height: 560px;
+  border-radius: 8px;
+  background: rgb(216, 125, 74);
+  padding: 96px 95px 0px 117px;
+}
+
+.product-one-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 37px 0px 124px 0px;
+}
+
+.product-one-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.product-one-content p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.75;
+}
+
+.product-one-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.product-one-btn:hover{
+  background-color: #4C4C4C;
+  color: #fff;
+}
+
+.product-two {
+  height: 320px;
+  position: relative;
+}
+
+.product-two img {
+  border-radius: 8px;
+}
+
+.product-two-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: absolute;
+  top: 6rem;
+  left: 9rem;
+}
+
+.product-two-content h1 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.product-two-btn, .product-three-btn{
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #000;
+}
+
+.product-two-btn:hover, .product-three-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.product-three {
+  display: flex;
+  gap: 30px;
+}
+
+.product-three-content {
+  padding: 101px 0px 101px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 540px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+
+.product-three-content h1 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content-section {
+  display: flex;
+  gap: 125px;
+  padding: 0px 0px 160px 0px;
+}
+
+.content-section-info {
+  padding: 146.5px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-section-info h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+}
+
+.content-section-info p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.5;
+}
+
